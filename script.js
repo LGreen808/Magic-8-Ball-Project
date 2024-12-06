@@ -19,27 +19,35 @@ let imageChoice = ('');
 switch (randomNumber) {
     case 0:
         eightBall = 'It is certain';
+        imageChoice = ''
         break;
     case 1:
         eightBall = 'It is decidedly so';
+         imageChoice = ''
         break;
     case 2:
         eightBall = 'Reply hazy try again';
+         imageChoice = ''
         break;
     case 3:
         eightBall = 'Cannot predict now';
+         imageChoice = ''
         break;
     case 4:
         eightBall = 'Do not count on it';
+         imageChoice = ''
         break;
     case 5:
         eightBall = 'My sources say no';
+         imageChoice = ''
         break;
     case 6:
         eightBall = 'Outlook not so good';
+         imageChoice = ''
         break;
     case 7:
         eightBall = 'Signs point to yes';
+         imageChoice = ''
         break;
     default:
         eightBall = 'YES';

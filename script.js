@@ -11,8 +11,8 @@ userName
 function shakeMagic8Ball () {
 //Get User Question
 let userQuestion = prompt('What do you want to ask the 8 Ball?');
-//Do Not Touch This Code!
 
+//Do Not Touch This Code!
 let randomNumber = Math.floor(Math.random() * 8);
 let eightBall = ('');
 let imageChoice = (''); 

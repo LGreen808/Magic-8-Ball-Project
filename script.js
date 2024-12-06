@@ -49,4 +49,4 @@ console.log(eightBall);
 responseText.innerText = `${userName} has asked ${userQuestion} to the almighty 8 Ball. The 8 ball he replied ${eightBall}!`
 responseImg.src = imageChoice
 
-}
+}  

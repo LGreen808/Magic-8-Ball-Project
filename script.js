@@ -10,7 +10,7 @@ userName
 : (greeting.innerText = 'Hello Stranger!')
 function shakeMagic8Ball () {
 //Get User Question
-let userQuestion = prompt('What do you want to ask the 8 Ball?');
+let userQuestion = prompt('What do you want to ask the 8 Ball?....And please remember ask either a yes or no question');
 
 //Do Not Touch This Code!
 let randomNumber = Math.floor(Math.random() * 8);
@@ -19,11 +19,11 @@ let imageChoice = ('');
 switch (randomNumber) {
     case 0:
         eightBall = 'It is certain';
-        imageChoice = ''
+        imageChoice = document.getElementById('imageHappy')
         break;
     case 1:
         eightBall = 'It is decidedly so';
-         imageChoice = ''
+         imageChoice = document.getElementById('')
         break;
     case 2:
         eightBall = 'Reply hazy try again';

@@ -11,7 +11,10 @@ h2 {
 }
 
 button {
-    text-align: center;
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+    box-shadow: 0px, 0px, 0px, transparent;
+    border-style: solid;
 }
 
 body {
